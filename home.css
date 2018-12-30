@@ -1,0 +1,46 @@
+
+.heading-container {
+    max-height: 220px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+    background-color: #FFF;
+    border-radius: .3rem;
+}
+
+.heading-container .subheading {
+    padding-top:40px;
+}
+.heading-container .subheading .title {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .heading-container .logo-container {
+        text-align: center;
+    }
+    .heading-container .subheading {
+        margin-top: -20px;
+        padding-top: 4px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .heading-container .subheading .title {
+        font-size: 1.5rem;
+    }   
+}
+
+ /* center nav menu bar on desktop screen*/
+@media only screen and (min-width: 576px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+    }
+}
